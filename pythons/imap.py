@@ -10,8 +10,12 @@ L1 = ['adam', 'LISA', 'barT']
 L2 = list(map(normalize, L1))
 print(L2)
 
+
+
 def prod(L):
 	return reduce(lambda x, y : x * y, L)
 
 r = prod([1, 2, 3])
 print(r)
+
+
